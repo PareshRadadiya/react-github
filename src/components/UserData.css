@@ -1,0 +1,174 @@
+.userInputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.boxContainer {
+    padding: 38px;
+    max-width: 400px;
+    width: 100%;
+    /* box-shadow: '2px 16px 16px rgba(0, 0, 0, 0.4)'; */
+    border: 1px solid #dbcece;
+    border-radius: 20px;
+    background-color: #f6fdff;
+}
+
+.gitLogo {
+    margin: auto;
+    height: 48px !important;
+    width: 48px !important;
+}
+
+.logoContainer {
+    padding-top: 32px;
+}
+
+
+.submit {
+    background-color: black !important;
+}
+
+.userName {
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.companyName {
+    margin: 20px 0 20px 0;
+    width: 15%;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.noData {
+    text-align: center;
+    font-weight: 600 !important;
+    margin-top: 24px !important;
+}
+
+.submitButton {
+    background-color: #1f883d !important;
+}
+
+.imageCard {
+
+    border-radius: 50% !important;
+
+}
+
+.imageMedia {
+    height: auto !important;
+}
+
+.userData {
+    display: flex;
+    flex-direction: column;
+}
+
+.userBoxContainer {
+    display: flex;
+    margin-left: 213px;
+}
+
+.repoTitle {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+.repoName {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.organization {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-bottom: 8px !important;
+    margin-top: 20px !important;
+}
+
+.organizationImg {
+    display: flex;
+    gap: 5px;
+}
+
+.repoImg {
+    background-color: #fff;
+    border: 0.0375rem solid #dbcece;
+    border-radius: 0.375rem !important;
+}
+
+.publicTag {
+    border: 1px solid #bdbdbd !important;
+    border-radius: 2em !important;
+    font-size: 0.75rem !important;
+    font-weight: 500 !important;
+    color: #726565de !important;
+    height: 20px !important;
+    width: 57px !important;
+    margin-left: 10px;
+}
+
+.userNameData {
+    font-weight: 600 !important;
+    font-size: 24px !important;
+
+}
+
+.userLogin {
+    font-size: 20px !important;
+    color: #857979;
+}
+
+.userDetail {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.companyNameDetails {
+    font-size: 14px;
+    font-weight: bold !important;
+    margin-left: 7px !important;
+}
+
+.locationDetails {
+    font-size: 14px;
+    color: #463e3e;
+}
+
+.companyDetails {
+    display: flex;
+}
+
+.companyLogo {
+    width: 27px !important;
+    height: 25px !important;
+}
+
+.pagination {
+
+    justify-content: "center" !important;
+    display: 'flex' !important;
+}
+
+.paginationBlock {
+    margin-top: 48px !important;
+    display: flex;
+    justify-content: center;
+
+}
