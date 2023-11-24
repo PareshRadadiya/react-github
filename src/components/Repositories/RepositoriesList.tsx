@@ -12,9 +12,10 @@ interface RepositoriesListProps {
 const itemsPerPage = 10;
 
 const RepositoriesList: FC<RepositoriesListProps> = ({ userName }) => {
-  const { data: repositories, error, isLoading  } = useGetUserRepositoriesQuery(userName);
+  const { data: repositories, isLoading  } = useGetUserRepositoriesQuery(userName);
+  const totalRepositories = repositories?.length || 0;
   const [currentPage, setCurrentPage] = useState(1);
-  const totalPages = Math.ceil(repositories?.length / itemsPerPage);
+  const totalPages = Math.ceil( totalRepositories / itemsPerPage);
 
   // Function to calculate paginated items based on the current page
   const calculatePaginatedRepositories = () => {
@@ -59,7 +60,7 @@ const RepositoriesList: FC<RepositoriesListProps> = ({ userName }) => {
             <Repository repoData={repo} />
           </Grid>
         ))}
-        {repositories?.length > itemsPerPage && (
+        {totalRepositories > itemsPerPage && (
           <Box className="paginate-container">
             <Pagination
               count={totalPages}
