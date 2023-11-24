@@ -14,11 +14,15 @@ import gitAvatar from "../../assets/github.png";
 const Form: FC = () => {
   const navigate = useNavigate();
   const [userName, setUserName] = useState<string>("");
+  const [error, setError] = useState<boolean>(false);
 
   const handleSubmit = () => {
-    if (userName) {
-      navigate(`/repositories`, { state: { user: userName } });
+    if (!userName) {
+      setError(true);
+      return;
     }
+
+    navigate(`/repositories`, { state: { user: userName } });
   };
 
   return (
@@ -40,8 +44,13 @@ const Form: FC = () => {
             margin="normal"
             value={userName}
             onChange={(e: any) => {
+              if (error && e.target.value) {
+                setError(false);
+              }
               setUserName(e.target.value);
             }}
+            error={error}
+            required
           />
           <Button
             variant="contained"
