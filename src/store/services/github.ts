@@ -2,7 +2,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import {
   GitHubUser,
-  UserGithubRepositeries,
+  UserGithubRepositories,
   UserGitHubOrganizations,
 } from "../types/githubTypes";
 
@@ -11,8 +11,8 @@ export const githubApi = createApi({
   reducerPath: "githubApi",
   baseQuery: fetchBaseQuery({ baseUrl: "https://api.github.com/users" }),
   endpoints: (builder) => ({
-    getUserRepositories: builder.query<UserGithubRepositeries, string>({
-      query: (name) => `${name}/repos`,
+    getUserRepositories: builder.query<UserGithubRepositories, { name: string; page?: number }>({
+      query: ({ name, page = 1 }) => `${name}/repos?page=${page}&sort=updated&direction=desc&type=all`,
     }),
     getUser: builder.query<GitHubUser, string>({
       query: (name) => `${name}`,

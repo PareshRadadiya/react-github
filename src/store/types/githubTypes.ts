@@ -140,7 +140,7 @@ export interface GitHubUser {
   updated_at: string;
 }
 
-export type UserGithubRepositeries = Repository[];
+export type UserGithubRepositories = Repository[];
 
 interface GitHubOrganization {
     login: string;
