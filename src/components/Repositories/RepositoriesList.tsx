@@ -12,11 +12,7 @@ interface RepositeriesListProps {
 const itemsPerPage = 10;
 
 const RepositeriesList: FC<RepositeriesListProps> = ({ user }) => {
-  const {
-    data: repositeries,
-    error: repositeriesError,
-    isLoading: repositeriesIsLoading,
-  } = useGetUserRepositeriesQuery(user);
+  const { data: repositeries } = useGetUserRepositeriesQuery(user);
 
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -32,12 +28,13 @@ const RepositeriesList: FC<RepositeriesListProps> = ({ user }) => {
     event: React.ChangeEvent<unknown>,
     newPage: number
   ) => {
+    event.preventDefault();
     setCurrentPage(newPage);
   };
 
   const paginatedRepositeries = calculatePaginatedRepositeries();
 
-  if (repositeries?.length < 1) {
+  if (!repositeries || repositeries?.length < 1) {
     return (
       <Box className="user-repositories-list">
         <Typography variant="h5" className="user-repositories-empty">

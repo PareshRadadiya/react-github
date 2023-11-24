@@ -13,16 +13,8 @@ interface UserInfoProps {
 }
 
 const Profile: FC<UserInfoProps> = ({ user }) => {
-  const {
-    data: userData,
-    error: userError,
-    isLoading: userisLoading,
-  } = useGetUserQuery(user);
-  const {
-    data: organizations,
-    error: organizationsError,
-    isLoading: organizationsIsLoading,
-  } = useGetUserOrganizationsQuery(user);
+  const { data: userData } = useGetUserQuery(user);
+  const { data: organizations } = useGetUserOrganizationsQuery(user);
 
   return (
     <Box className="user-profile">
@@ -48,7 +40,6 @@ const Profile: FC<UserInfoProps> = ({ user }) => {
       <Box className="profile-follow">
         <Box className="profile-follow-item">
           <svg
-            text="muted"
             aria-hidden="true"
             height="16"
             viewBox="0 0 16 16"
