@@ -3,7 +3,7 @@ import { Box } from "@mui/material";
 import "../UserData.css";
 import { useLocation } from "react-router-dom";
 import Profile from "./Profile";
-import RepositeriesList from "./RepositoriesList";
+import RepositoriesList from "./RepositoriesList";
 
 export default () => {
   const { state } = useLocation();
@@ -26,7 +26,7 @@ export default () => {
       </Box>
       <Box className="repos-container">
         <Profile user={user} />
-        <RepositeriesList user={user} />
+        <RepositoriesList user={user} />
       </Box>
     </>
   );

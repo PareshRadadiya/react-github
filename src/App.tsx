@@ -11,7 +11,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Form />} />
-          <Route path="/repositeries" element={<Repositories />} />
+          <Route path="/repositories" element={<Repositories />} />
         </Routes>
       </BrowserRouter>
     </Provider>

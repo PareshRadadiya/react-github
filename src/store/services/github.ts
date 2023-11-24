@@ -11,7 +11,7 @@ export const githubApi = createApi({
   reducerPath: "githubApi",
   baseQuery: fetchBaseQuery({ baseUrl: "https://api.github.com/users" }),
   endpoints: (builder) => ({
-    getUserRepositeries: builder.query<UserGithubRepositeries, string>({
+    getUserRepositories: builder.query<UserGithubRepositeries, string>({
       query: (name) => `${name}/repos`,
     }),
     getUser: builder.query<GitHubUser, string>({
@@ -28,5 +28,5 @@ export const githubApi = createApi({
 export const {
   useGetUserOrganizationsQuery,
   useGetUserQuery,
-  useGetUserRepositeriesQuery,
+  useGetUserRepositoriesQuery,
 } = githubApi;

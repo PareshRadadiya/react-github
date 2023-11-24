@@ -9,4 +9,3 @@ describe('Form component', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 });
-

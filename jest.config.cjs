@@ -13,6 +13,10 @@ module.exports = {
     },
   transformIgnorePatterns: [
     "/node_modules/(?!your-module-to-transpile)"
-  ]
+  ],
+  setupFilesAfterEnv: ['<rootDir>/src/tests/setupTests.ts'],
+  testEnvironmentOptions: {
+    customExportConditions: [''],
+  },
 };
   

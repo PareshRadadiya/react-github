@@ -17,16 +17,16 @@ const Form: FC = () => {
 
   const handleSubmit = () => {
     if (userName) {
-      navigate(`/repositeries`, { state: { user: userName } });
+      navigate(`/repositories`, { state: { user: userName } });
     }
   };
 
   return (
     <>
-      <Box className="user-form-container ">
+      <Box className="user-form-container">
         <Avatar alt="Github Avatar" src={gitAvatar} className="gitLogo" />
         <Typography variant="h5" className="userName">
-          Sign in to GitHub
+          Get Github Repositories
         </Typography>
       </Box>
       <Box className="username-input">
