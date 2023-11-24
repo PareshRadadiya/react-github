@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import '@testing-library/jest-dom';
 import configureStore from 'redux-mock-store';
 import { MemoryRouter } from 'react-router-dom';
-import UserGitRepos from './UserGitRepos';
+import UserGitRepos from './Form/From';
 
 // Mock the useDispatch and useSelector hooks
 jest.mock('react-redux', () => ({

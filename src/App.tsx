@@ -1,24 +1,19 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import UserGitRepos from "./components/UserGitRepos";
-import { Provider } from 'react-redux';
-import store from "./store";
-import UserData from "./components/UserData";
+import { Provider } from "react-redux";
 
-function App() {
+import { store } from "./store/store";
+import Form from "./components/Form/From";
+import Repositories from "./components/Repositories/Repositories";
 
+export default function App() {
   return (
-    <>
-      <Provider store={store}>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<UserGitRepos />} />
-            <Route path="/repos" element={<UserData />} />
-          </Routes>
-        </BrowserRouter>
-      </Provider>
-    </>
-  )
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Form />} />
+          <Route path="/repositeries" element={<Repositories />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
+  );
 }
-
-export default App

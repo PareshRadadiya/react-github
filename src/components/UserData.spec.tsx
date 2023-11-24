@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import { Provider, useDispatch } from 'react-redux';
-import UserData from './UserData';
+import UserData from './Repositories/Repositories';
 import * as userRepositaryDataActions from '../Actions/userRepositaryDataActions';
 import { MemoryRouter } from 'react-router-dom';
 import { dummyOrganizationData, dummyUserData, dummyUserNameData } from '../mockData/mockData';

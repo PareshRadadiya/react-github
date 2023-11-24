@@ -8,34 +8,27 @@ import {
   Button,
   Paper,
 } from "@mui/material";
-import "./UserData.css";
-import gitAvatar from "../assets/github.png";
+import "../UserData.css";
+import gitAvatar from "../../assets/github.png";
 
-const UserGitRepos = () => {
+export default () => {
   const navigate = useNavigate();
   const [userName, setUserName] = useState<string>("");
-  const [error, setError] = useState<string>("");
 
   const handleSubmit = () => {
-    console.log("userName", userName);
-    if (!userName.length) {
-      setError('"User Name" is not allowed to be empty');
-    } else {
-      console.log("Navigate", "Navigate");
-      navigate(`/repos`, { state: { user: userName } });
-    }
+    navigate(`/repositeries`, { state: { user: userName } });
   };
 
   return (
     <>
-      <Box className="logoContainer">
+      <Box className="user-form-container ">
         <Avatar alt="Github Avatar" src={gitAvatar} className="gitLogo" />
         <Typography variant="h5" className="userName">
           Sign in to GitHub
         </Typography>
       </Box>
-      <Box className="userInputContainer">
-        <Paper className="boxContainer">
+      <Box className="username-input">
+        <Paper className="uername-input-box">
           <TextField
             data-testid="user-name"
             fullWidth
@@ -48,11 +41,6 @@ const UserGitRepos = () => {
               setUserName(e.target.value);
             }}
           />
-          {error && (
-            <div data-testId="error" className="error">
-              {error}
-            </div>
-          )}
           <Button
             variant="contained"
             className="submitButton"
@@ -66,5 +54,3 @@ const UserGitRepos = () => {
     </>
   );
 };
-
-export default UserGitRepos;
