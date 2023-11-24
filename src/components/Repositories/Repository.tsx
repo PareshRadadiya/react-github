@@ -68,7 +68,7 @@ const Repository = ({ repoData }: any) => {
           </span>
           <span className="card-info-item">
             <Typography variant="body2" color="text.secondary">
-              Updated <span>{repoData?.updated_at}</span>
+              Updated on <span>{new Date(repoData?.updated_at).toUTCString()}</span>
             </Typography>
           </span>
         </div>

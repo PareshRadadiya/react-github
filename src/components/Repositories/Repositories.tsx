@@ -7,7 +7,7 @@ import RepositoriesList from "./RepositoriesList";
 
 export default () => {
   const { state } = useLocation();
-  const { user } = state;
+  const { userName } = state;
 
   return (
     <>
@@ -27,8 +27,8 @@ export default () => {
         </Link>
       </Box>
       <Box className="repos-container">
-        <Profile user={user} />
-        <RepositoriesList user={user} />
+        <Profile userName={userName} />
+        <RepositoriesList userName={userName} />
       </Box>
     </>
   );

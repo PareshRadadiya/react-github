@@ -7,7 +7,7 @@ import { MemoryRouter } from "react-router-dom";
 
 const renderRepositoriesComponent = () => {
   return render(
-    <MemoryRouter initialEntries={[{ pathname: '/repositories', state: { user: 'willbailey' } }]}>
+    <MemoryRouter initialEntries={[{ pathname: '/repositories', state: { userName: 'willbailey' } }]}>
       <Repositories />
     </MemoryRouter>
   );

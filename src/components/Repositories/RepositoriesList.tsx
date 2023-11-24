@@ -1,4 +1,4 @@
-import { Box, Grid, Pagination, Typography } from "@mui/material";
+import { Box, Grid, Pagination, Typography, CircularProgress } from "@mui/material";
 import { FC, useState } from "react";
 
 import "../UserData.css";
@@ -6,13 +6,13 @@ import { useGetUserRepositoriesQuery } from "../../store/services/github";
 import Repository from "./Repository";
 
 interface RepositoriesListProps {
-  user: string;
+  userName: string;
 }
 
 const itemsPerPage = 10;
 
-const RepositoriesList: FC<RepositoriesListProps> = ({ user }) => {
-  const { data: repositories } = useGetUserRepositoriesQuery(user);
+const RepositoriesList: FC<RepositoriesListProps> = ({ userName }) => {
+  const { data: repositories, error, isLoading  } = useGetUserRepositoriesQuery(userName);
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(repositories?.length / itemsPerPage);
 
@@ -34,18 +34,25 @@ const RepositoriesList: FC<RepositoriesListProps> = ({ user }) => {
 
   const paginatedRepositories = calculatePaginatedRepositories();
 
-  if (!repositories || repositories?.length < 1) {
+  if (!isLoading && (!repositories || repositories?.length < 1))   {
     return (
       <Box className="user-repositories-list">
         <Typography variant="h5" className="user-repositories-empty">
-          {user} doesn’t have any public repositories yet.
+          {userName} doesn’t have any public repositories yet.
         </Typography>
       </Box>
     );
   }
 
+  if (isLoading) {
+    return (
+      <Box className="user-repositories-loading">
+        <CircularProgress />
+      </Box>
+    );
+  }
+
   return (
-    <>
       <Box className="user-repositories-list">
         {paginatedRepositories?.map((repo: any) => (
           <Grid item key={repo.id} xs={12}>
@@ -64,7 +71,6 @@ const RepositoriesList: FC<RepositoriesListProps> = ({ user }) => {
           </Box>
         )}
       </Box>
-    </>
   );
 };
 

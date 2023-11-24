@@ -22,7 +22,7 @@ const Form: FC = () => {
       return;
     }
 
-    navigate(`/repositories`, { state: { user: userName } });
+    navigate(`/repositories`, { state: { userName } });
   };
 
   return (
