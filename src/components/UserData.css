@@ -41,8 +41,8 @@
 }
 
 .user-profile {
-  margin: 20px 0 20px 0;
-  width: 18%;
+  margin: 0px 0 20px 0;
+  width: 23%;
 }
 
 .error {
@@ -81,6 +81,7 @@
   flex-wrap: wrap;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 25px;
 }
 
 .header-logo {
@@ -182,6 +183,13 @@
   height: 12px;
   border-radius: 50%;
 }
+.user-repository .repoName a{
+  text-decoration: none;
+}
+.user-repository .repoName a:hover{
+  text-decoration: underline;
+  text-decoration-color: #1976d2;
+}
 .card-footer-info {
   display: flex;
   align-items: center;
@@ -192,13 +200,21 @@
   width: 100%;
 }
 .user-repositories-list {
-  width: 80%;
+  width: 76%;
   padding-left: 1%;
 }
 .card-info-item {
   display: flex;
   align-items: center;
   gap: 5px;
+  font-size: 13px;
+}
+.card-info-item p, .card-info-item span{
+  font-size: 13px;
+}
+.card-info-item a{
+  text-decoration: none;
+  font-size: 13px;
 }
 .profile-follow {
   display: flex;
@@ -213,6 +229,8 @@
   display: flex;
   align-items: center;
   color: #666;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 14px;
 }
 .profile-follow-item svg {
   margin-right: 4px;
@@ -226,7 +244,17 @@
 .profie-organization svg {
   fill: #666;
 }
-
+.profie-organization p{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  color: rgb(31, 35, 40);
+}
+.profie-organization a{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  color: rgb(31, 35, 40);
+  text-decoration: none;
+}
 .user-repository-container {
   margin: 2px;
   width: 100%;
@@ -249,21 +277,30 @@ body {
 }
 .uername-input-box fieldset {
   border: 1px solid rgb(216, 222, 228);
-  background: #fff;
 }
 .uername-input-box input {
   padding: 12.5px 14px;
+  background: #fff;
 }
 .uername-input-box label {
   top: -3px;
 }
+.uername-input-box label.MuiFormLabel-filled, .uername-input-box label.Mui-focused{
+  top: 0px;
+}
 .uername-input-box button {
   margin-top: 8px;
+}
+.user-repositories-empty{
+  text-align: center;
+  color:#222;
+  margin-top: 80px !important;
+  font-weight: bold !important;
 }
 
 @media only screen and (max-width: 1399px) {
   .user-profile {
-    width: 23%;
+    width: 25%;
   }
   .user-repositories-list {
     width: 74%;
@@ -277,17 +314,23 @@ body {
   .repos-container {
     flex-wrap: wrap;
   }
-  .user-repositories-list {
-    width: 75%;
-  }
 }
 @media only screen and (max-width: 991px) {
   .user-profile {
-    width: 28%;
+    width: 32%;
   }
   .user-repositories-list {
-    width: 68%;
+    width: 67%;
     padding-left: 1%;
+  }
+  .card-footer-info{
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 8px;
+  }
+  .card-info-item{
+    margin-right: 12px;
+    margin-top: 6px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -308,7 +351,7 @@ body {
     justify-content: center;
   }
   .user-repositories-list {
-    width: 93%;
+    width: 100%;
     padding-left: 0;
   }
   .user-profile h6 {
@@ -320,10 +363,17 @@ body {
   .profile-follow {
     justify-content: center;
   }
+  .paginate-container ul li button{
+    margin: 0 1px;
+  }
+  .user-repositories-empty{
+    margin-top: 40px !important;
+    font-size: 18px !important;
+  }
 }
 @media only screen and (max-width: 440px) {
   .user-repositories-list {
-    width: 90%;
+    width: 100%;
   }
   .user-profile .profile-image-card {
     width: 80px;

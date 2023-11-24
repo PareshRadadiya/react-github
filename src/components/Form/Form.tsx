@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, FC } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   Box,
@@ -11,12 +11,14 @@ import {
 import "../UserData.css";
 import gitAvatar from "../../assets/github.png";
 
-export default () => {
+const Form: FC = () => {
   const navigate = useNavigate();
   const [userName, setUserName] = useState<string>("");
 
   const handleSubmit = () => {
-    navigate(`/repositeries`, { state: { user: userName } });
+    if (userName) {
+      navigate(`/repositeries`, { state: { user: userName } });
+    }
   };
 
   return (
@@ -54,3 +56,5 @@ export default () => {
     </>
   );
 };
+
+export default Form;

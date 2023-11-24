@@ -1,4 +1,4 @@
-import { Box, Grid, Pagination } from "@mui/material";
+import { Box, Grid, Pagination, Typography } from "@mui/material";
 import { FC, useState } from "react";
 
 import "../UserData.css";
@@ -36,6 +36,16 @@ const RepositeriesList: FC<RepositeriesListProps> = ({ user }) => {
   };
 
   const paginatedRepositeries = calculatePaginatedRepositeries();
+
+  if (repositeries?.length < 1) {
+    return (
+      <Box className="user-repositories-list">
+        <Typography variant="h5" className="user-repositories-empty">
+          gfhfghfg doesn’t have any public repositories yet.
+        </Typography>
+      </Box>
+    );
+  }
 
   return (
     <>
