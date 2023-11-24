@@ -7,13 +7,19 @@ import { MemoryRouter } from "react-router-dom";
 
 const renderRepositoriesComponent = () => {
   return render(
-    <MemoryRouter initialEntries={[{ pathname: '/repositories', state: { userName: 'willbailey' } }]}>
+    <MemoryRouter initialEntries={[{ pathname: '/repositories' }]}>
       <Repositories />
     </MemoryRouter>
   );
 };
 
 describe('Repositories component', () => {
+
+  beforeEach(() => {
+    jest.spyOn(window.localStorage.__proto__, 'getItem');
+    window.localStorage.__proto__.getItem = jest.fn(() => 'willbailey');
+  });
+
   it("renders Repositories correctly", async () => {
     const { asFragment } =renderRepositoriesComponent();
     await waitFor(async () => expect(await screen.findByText(/will bailey/i)).toBeVisible());

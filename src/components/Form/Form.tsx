@@ -22,7 +22,8 @@ const Form: FC = () => {
       return;
     }
 
-    navigate(`/repositories`, { state: { userName } });
+    localStorage.setItem('userName', userName);
+    navigate('/repositories');
   };
 
   return (

@@ -12,7 +12,7 @@ export const githubApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: "https://api.github.com/users" }),
   endpoints: (builder) => ({
     getUserRepositories: builder.query<UserGithubRepositories, { name: string; page?: number }>({
-      query: ({ name, page = 1 }) => `${name}/repos?page=${page}&sort=updated&direction=desc&type=all`,
+      query: ({ name, page = 1 }) => `${name}/repos?page=${page}&sort=updated&direction=desc`,
     }),
     getUser: builder.query<GitHubUser, string>({
       query: (name) => `${name}`,

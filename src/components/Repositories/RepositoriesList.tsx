@@ -23,7 +23,10 @@ const RepositoriesList: FC<RepositoriesListProps> = ({ userName }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const { data: repositories, isLoading } = useGetUserRepositoriesQuery({ name: userName, page: currentPage });
   const totalRepos = repositories?.length || 0;
-  // Function to handle page change
+  const disableNext = totalRepos < 30;
+  const disablePrevious = currentPage === 1;
+  const disablePagination = disableNext && disablePrevious;
+
   const handleNext = () => {
     scrollToTop();
     setCurrentPage(currentPage + 1);
@@ -61,10 +64,13 @@ const RepositoriesList: FC<RepositoriesListProps> = ({ userName }) => {
           <Repository repoData={repo} />
         </Grid>
       ))}
-      <Box className="paginate-container">
-        <Button startIcon={<ArrowBackIosIcon />} onClick={handlePrevious} disabled={1 === currentPage}>Previous</Button>
-        <Button endIcon={<ArrowForwardIosIcon />} onClick={handleNext} disabled={30 !== totalRepos}>Next</Button>
-      </Box>
+      {!disablePagination && (
+        <Box className="paginate-container">
+          <Button startIcon={<ArrowBackIosIcon />} onClick={handlePrevious} disabled={disablePrevious}>Previous</Button>
+          <Button endIcon={<ArrowForwardIosIcon />} onClick={handleNext} disabled={disableNext}>Next</Button>
+        </Box>
+      )}
+
     </Box>
   );
 };

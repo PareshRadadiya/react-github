@@ -1,13 +1,12 @@
 import { Box } from "@mui/material";
 
 import "../UserData.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Profile from "./Profile";
 import RepositoriesList from "./RepositoriesList";
 
 export default () => {
-  const { state } = useLocation();
-  const { userName } = state;
+  const userName = localStorage.getItem('userName');
 
   return (
     <>
