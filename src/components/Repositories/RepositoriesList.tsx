@@ -4,7 +4,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 
-import "../UserData.css";
+import "../UserData.scss";
 import { useGetUserRepositoriesQuery } from "../../store/services/github";
 import Repository from "./Repository";
 

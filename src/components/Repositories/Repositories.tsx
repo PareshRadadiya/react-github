@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-import "../UserData.css";
+import "../UserData.scss";
 import { Link } from "react-router-dom";
 import Profile from "./Profile";
 import RepositoriesList from "./RepositoriesList";

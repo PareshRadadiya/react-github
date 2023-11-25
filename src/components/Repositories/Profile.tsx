@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Box, Typography, CardMedia, Card, Avatar, Link } from "@mui/material";
 
-import "../UserData.css";
+import "../UserData.scss";
 
 import {
   useGetUserQuery,

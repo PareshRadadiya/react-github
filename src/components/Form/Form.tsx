@@ -8,7 +8,7 @@ import {
   Button,
   Paper,
 } from "@mui/material";
-import "../UserData.css";
+import "../UserData.scss";
 import gitAvatar from "../../assets/github.png";
 
 const Form: FC = () => {

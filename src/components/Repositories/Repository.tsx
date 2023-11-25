@@ -1,6 +1,6 @@
 // CardComponent.js
 import { Card, Link, Chip, CardContent, Typography } from "@mui/material";
-import "../UserData.css";
+import "../UserData.scss";
 
 const Repository = ({ repoData }: any) => {
   return (
