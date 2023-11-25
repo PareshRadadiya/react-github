@@ -1,12 +1,13 @@
 import { FC } from "react";
 import { Box, Typography, CardMedia, Card, Avatar, Link } from "@mui/material";
 
-import "../UserData.scss";
 
 import {
   useGetUserQuery,
   useGetUserOrganizationsQuery,
 } from "../../store/services/github";
+
+import "./Profile.scss";
 
 interface UserInfoProps {
   userName: string;

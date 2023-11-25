@@ -1,19 +1,4 @@
-$color_1: #ff0000;
-$color_2: #ffffff;
-$color_3: #726565de;
-$color_4: #857979;
-$color_5: #463e3e;
-$color_6: #666;
-$color_7: #222;
-$color_8: rgb(31, 35, 40);
-$font-family_1: "Roboto","Helvetica","Arial",sans-serif;
-$background-color_1: #f6fdff;
-$background-color_2: black;
-$background-color_3: #1f883d;
-$background-color_4: #000000;
-$background-color_5: #fff;
-$background-color_6: #f34b7d;
-$border-color_1: rgb(216, 222, 228);
+
 
 .username-input {
 	display: flex;
@@ -60,9 +45,7 @@ $border-color_1: rgb(216, 222, 228);
 	height: 48px !important;
 	width: 48px !important;
 }
-.user-form-container {
-	padding-top: 32px;
-}
+
 .submit {
 	background-color: $background-color_2 !important;
 }
@@ -73,10 +56,7 @@ $border-color_1: rgb(216, 222, 228);
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.user-profile {
-	margin: 0px 0 20px 0;
-	width: 23%;
-}
+
 .error {
 	color: $color_1;
 	font-size: 12px;
@@ -96,12 +76,7 @@ $border-color_1: rgb(216, 222, 228);
 .profile-image {
 	height: auto !important;
 }
-.user-repositories-list {
-	display: flex;
-	flex-direction: column;
-	width: 76%;
-	padding-left: 1%;
-}
+
 .repos-container {
 	display: flex;
 	max-width: 1270px;
@@ -111,17 +86,7 @@ $border-color_1: rgb(216, 222, 228);
 	padding-right: 20px;
 	margin-top: 25px;
 }
-.header-logo {
-	text-align: center;
-	background-color: $background-color_4;
-	color: $color_2;
-	padding: 10px;
-	svg {
-		fill: #fff;
-		display: block;
-		margin: 0 auto;
-	}
-}
+
 .repoName {
 	font-size: 20px !important;
 	font-weight: 600 !important;
@@ -215,24 +180,7 @@ $border-color_1: rgb(216, 222, 228);
 		margin: 0 30px;
 	}
 }
-.user-repository {
-	.repo-language-color {
-		background-color: $background-color_6;
-		display: inline-block;
-		width: 12px;
-		height: 12px;
-		border-radius: 50%;
-	}
-	.repoName {
-		a {
-			text-decoration: none;
-			&:hover {
-				text-decoration: underline;
-				text-decoration-color: #1976d2;
-			}
-		}
-	}
-}
+
 .card-footer-info {
 	display: flex;
 	align-items: center;
@@ -280,13 +228,7 @@ $border-color_1: rgb(216, 222, 228);
 	color: $color_7;
 	margin-right: 3px;
 }
-.user-repository-container {
-	margin: 2px;
-	width: 100%;
-	display: inline-flex;
-	box-shadow: none !important;
-	border-bottom: 1px solid rgb(216, 222, 228);
-}
+
 body {
 	margin: 0;
 }

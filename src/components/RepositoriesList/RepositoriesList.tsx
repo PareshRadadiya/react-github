@@ -4,9 +4,9 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 
-import "../UserData.scss";
 import { useGetUserRepositoriesQuery } from "../../store/services/github";
-import Repository from "./Repository";
+import Repository from "../Repository/Repository";
+import "./RepositoriesList.scss";
 
 interface RepositoriesListProps {
   userName: string;

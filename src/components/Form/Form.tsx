@@ -8,8 +8,9 @@ import {
   Button,
   Paper,
 } from "@mui/material";
-import "../UserData.scss";
 import gitAvatar from "../../assets/github.png";
+
+import "./Form.scss";
 
 const Form: FC = () => {
   const navigate = useNavigate();

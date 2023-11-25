@@ -1,10 +1,10 @@
 import { Box } from "@mui/material";
 
-import "../UserData.scss";
 import { Link } from "react-router-dom";
-import Profile from "./Profile";
-import RepositoriesList from "./RepositoriesList";
+import Profile from "../Profile/Profile";
+import RepositoriesList from "../RepositoriesList/RepositoriesList";
 
+import "./Repositories.scss";
 export default () => {
   const userName = window.localStorage.getItem('userName') || '';
 

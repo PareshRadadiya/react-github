@@ -1,0 +1,11 @@
+.header-logo {
+	text-align: center;
+	background-color: $background-color_4;
+	color: $color_2;
+	padding: 10px;
+	svg {
+		fill: #fff;
+		display: block;
+		margin: 0 auto;
+	}
+}

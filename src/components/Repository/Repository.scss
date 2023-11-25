@@ -1,0 +1,26 @@
+.user-repository-container {
+	margin: 2px;
+	width: 100%;
+	display: inline-flex;
+	box-shadow: none !important;
+	border-bottom: 1px solid rgb(216, 222, 228);
+}
+
+.user-repository {
+	.repo-language-color {
+		background-color: $background-color_6;
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+	}
+	.repoName {
+		a {
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+				text-decoration-color: #1976d2;
+			}
+		}
+	}
+}

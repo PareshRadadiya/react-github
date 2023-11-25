@@ -5,6 +5,8 @@ import { store } from "./store/store";
 import Form from "./components/Form/Form";
 import Repositories from "./components/Repositories/Repositories";
 
+import "./App.scss";
+
 export default function App() {
   return (
     <Provider store={store}>
