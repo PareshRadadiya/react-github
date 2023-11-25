@@ -6,7 +6,7 @@ exports[`Form component renders Form correctly 1`] = `
     class="user-form-container MuiBox-root css-0"
   >
     <div
-      class="MuiAvatar-root MuiAvatar-circular gitLogo css-1wlk0hk-MuiAvatar-root"
+      class="MuiAvatar-root MuiAvatar-circular user-form-logo css-1wlk0hk-MuiAvatar-root"
     >
       <img
         alt="Github Avatar"
@@ -15,7 +15,7 @@ exports[`Form component renders Form correctly 1`] = `
       />
     </div>
     <h5
-      class="MuiTypography-root MuiTypography-h5 userName css-ag7rrr-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h5 header css-ag7rrr-MuiTypography-root"
     >
       Get Github Repositories
     </h5>
@@ -24,7 +24,7 @@ exports[`Form component renders Form correctly 1`] = `
     class="username-input MuiBox-root css-0"
   >
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 uername-input-box css-1ps6pg7-MuiPaper-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 username-input-box css-1ps6pg7-MuiPaper-root"
     >
       <div
         class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-17vbkzs-MuiFormControl-root-MuiTextField-root"

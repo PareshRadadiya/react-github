@@ -287,7 +287,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -420,7 +420,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -553,7 +553,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -686,7 +686,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -819,7 +819,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -952,7 +952,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -1083,7 +1083,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -1214,7 +1214,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -1345,7 +1345,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -1475,7 +1475,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -1600,7 +1600,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -1733,7 +1733,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -1863,7 +1863,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -1996,7 +1996,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -2129,7 +2129,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -2254,7 +2254,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -2387,7 +2387,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -2520,7 +2520,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -2645,7 +2645,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -2770,7 +2770,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -2903,7 +2903,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -3028,7 +3028,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -3153,7 +3153,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -3286,7 +3286,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -3419,7 +3419,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -3552,7 +3552,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -3680,7 +3680,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -3812,7 +3812,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -3937,7 +3937,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
@@ -4070,7 +4070,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               class="MuiCardContent-root user-repository  css-46bh2p-MuiCardContent-root"
             >
               <div
-                class="MuiTypography-root MuiTypography-h5 repoName css-1invrju-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 repository-name css-1invrju-MuiTypography-root"
               >
                 <a
                   class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
