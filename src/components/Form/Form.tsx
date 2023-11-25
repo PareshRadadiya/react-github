@@ -53,6 +53,7 @@ const Form: FC = () => {
             error={error}
             required
           />
+          {error && <Typography variant="body2" className="error">Please enter github username.</Typography>}
           <Button
             variant="contained"
             className="submitButton"

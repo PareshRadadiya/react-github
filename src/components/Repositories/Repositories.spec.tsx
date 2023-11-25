@@ -5,7 +5,7 @@ import { screen, waitFor, fireEvent } from '@testing-library/react'
 import Repositories from "./Repositories";
 import { MemoryRouter } from "react-router-dom";
 import { server } from "../../tests/server";
-import { getEmptyOrgs, getLimitedRepos } from "../../tests/handlers";
+import { getEmptyOrgs, getEmptyRepos, getLimitedRepos } from "../../tests/handlers";
 
 const renderRepositoriesComponent = () => {
   return render(
@@ -23,11 +23,11 @@ describe('Repositories component', () => {
   });
 
 
-  // it("renders Repositories correctly", async () => {
-  //   const { asFragment } = renderRepositoriesComponent();
-  //   await waitFor(async () => expect(await screen.findByText(/will bailey/i)).toBeVisible());
-  //   expect(asFragment()).toMatchSnapshot();
-  // });
+  it("renders Repositories correctly", async () => {
+    const { asFragment } = renderRepositoriesComponent();
+    await waitFor(async () => expect(await screen.findByText(/will bailey/i)).toBeVisible());
+    expect(asFragment()).toMatchSnapshot();
+  });
 
   it("renders 30 repositories by default", async () => {
     renderRepositoriesComponent();
@@ -91,6 +91,17 @@ describe('Repositories component', () => {
     // Assert that the button is not in the document
     expect(previousButton).not.toBeInTheDocument();
     expect(nextButton).not.toBeInTheDocument();
+  });
+
+  it("should not renders Repositories", async () => {
+    server.use(getEmptyRepos);
+    renderRepositoriesComponent();
+    await waitFor(async () => expect(await screen.findByText(/will bailey/i)).toBeVisible());
+    // Use waitFor to wait for the heading to be visible
+    await waitFor(() => {
+      const heading = screen.getByRole('heading', { name: /willbailey doesn’t have any public repositories yet\./i });
+      expect(heading).toBeVisible();
+    });
   });
 
   it("should render organization", async () => {

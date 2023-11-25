@@ -43,7 +43,6 @@ const getRepos = rest.get('https://api.github.com/users/willbailey/repos', (req,
 const getLimitedRepos = rest.get('https://api.github.com/users/willbailey/repos', (_req, res, ctx) => {
   const pagedRepos = repos[`reposPage_1` as keyof typeof repos] as UserGithubRepositories;
   const limitedRepos = pagedRepos.slice(0, 10);
-  console.log('limitedRepos');
   return res(
     ctx.delay(500),
     ctx.json(limitedRepos)
