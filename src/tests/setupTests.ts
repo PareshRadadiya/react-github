@@ -22,3 +22,5 @@ afterEach(() => {
 afterAll(() => server.close());
 
 configure({ asyncUtilTimeout: 10000 });
+
+window.scrollTo = jest.fn();
