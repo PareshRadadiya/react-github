@@ -22,7 +22,7 @@ const Form: FC = () => {
       return;
     }
 
-    localStorage.setItem('userName', userName);
+    window.localStorage.setItem('userName', userName);
     navigate('/repositories');
   };
 

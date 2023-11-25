@@ -59,18 +59,19 @@ const RepositoriesList: FC<RepositoriesListProps> = ({ userName }) => {
 
   return (
     <Box className="user-repositories-list">
-      {repositories?.map((repo: any) => (
-        <Grid item key={repo.id} xs={12}>
-          <Repository repoData={repo} />
-        </Grid>
-      ))}
+      <Box data-testid="repositories-list">
+        {repositories?.map((repo: any) => (
+          <Grid item key={repo.id} xs={12}>
+            <Repository repoData={repo} />
+          </Grid>
+        ))}
+      </Box>
       {!disablePagination && (
         <Box className="paginate-container">
           <Button startIcon={<ArrowBackIosIcon />} onClick={handlePrevious} disabled={disablePrevious}>Previous</Button>
           <Button endIcon={<ArrowForwardIosIcon />} onClick={handleNext} disabled={disableNext}>Next</Button>
         </Box>
       )}
-
     </Box>
   );
 };

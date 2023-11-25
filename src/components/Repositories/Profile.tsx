@@ -134,11 +134,11 @@ const Profile: FC<UserInfoProps> = ({ userName }) => {
       </Box>)}
 
       {!organizationsError && !organizationsIsLoading && organizations?.length && (
-        <>
+        <Box className="profile-organizations">
           <Typography variant="h6" className="organization">
             Organizations
           </Typography>
-          <Typography className="organizationImg">
+          <Box className="profile-organization-list" data-testid="organization-list">
             {organizations?.map((org: any) => (
               <Link key={org.id} href={`https://github.com/${org.login}`}>
                 <Avatar
@@ -148,8 +148,8 @@ const Profile: FC<UserInfoProps> = ({ userName }) => {
                 />
               </Link>
             ))}
-          </Typography>
-        </>
+          </Box>
+        </Box>
       )}
     </Box>
   );

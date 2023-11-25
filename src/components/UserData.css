@@ -105,7 +105,7 @@
   border-top: 1px solid rgb(216, 222, 228);
 }
 
-.organizationImg {
+.profile-organization-list {
   display: flex;
   gap: 5px;
 }
@@ -176,6 +176,15 @@
   justify-content: center;
 }
 
+.paginate-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+.paginate-container button {
+  margin: 0 30px;
+}
 .user-repository .repo-language-color {
   background-color: #f34b7d;
   display: inline-block;
@@ -197,7 +206,7 @@
   margin-top: 15px;
 }
 .paginate-container {
-  width: 100%;
+  width: 95%;
 }
 .user-repositories-list {
   width: 76%;

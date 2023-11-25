@@ -6,7 +6,7 @@ import Profile from "./Profile";
 import RepositoriesList from "./RepositoriesList";
 
 export default () => {
-  const userName = localStorage.getItem('userName') || '';
+  const userName = window.localStorage.getItem('userName') || '';
 
   return (
     <>
