@@ -30,13 +30,13 @@ const Form: FC = () => {
   return (
     <>
       <Box className="user-form-container">
-        <Avatar alt="Github Avatar" src={gitAvatar} className="gitLogo" />
-        <Typography variant="h5" className="userName">
+        <Avatar alt="Github Avatar" src={gitAvatar} className="user-form-logo" />
+        <Typography variant="h5" className="header">
           Get Github Repositories
         </Typography>
       </Box>
       <Box className="username-input">
-        <Paper className="uername-input-box">
+        <Paper className="username-input-box">
           <TextField
             data-testid="user-name"
             fullWidth

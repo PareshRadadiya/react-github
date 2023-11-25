@@ -10,7 +10,7 @@ const Repository = ({ repoData }: any) => {
           variant="h5"
           component="div"
           color="primary"
-          className="repoName"
+          className="repository-name"
         >
           <Link
             href={repoData.svn_url}

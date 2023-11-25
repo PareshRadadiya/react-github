@@ -4,3 +4,32 @@
 	width: 76%;
 	padding-left: 1%;
 }
+
+.paginate-container {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	width: 95%;
+
+	button {
+		margin: 0 30px;
+	}
+}
+
+.user-repositories-empty {
+	text-align: center;
+	color: $color_7;
+	margin-top: 80px !important;
+	font-weight: bold !important;
+}
+
+.user-repositories-loading {
+	text-align: center;
+	margin-top: 80px !important;
+	flex-grow: 1;
+}

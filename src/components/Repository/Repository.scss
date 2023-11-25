@@ -14,7 +14,7 @@
 		height: 12px;
 		border-radius: 50%;
 	}
-	.repoName {
+	.repository-name {
 		a {
 			text-decoration: none;
 			&:hover {
@@ -22,5 +22,44 @@
 				text-decoration-color: #1976d2;
 			}
 		}
+	}
+}
+
+.repository-name {
+	font-size: 20px !important;
+	font-weight: 600 !important;
+}
+
+.publicTag {
+	border: 1px solid #bdbdbd !important;
+	border-radius: 2em !important;
+	font-size: 0.75rem !important;
+	font-weight: 500 !important;
+	color: $color_3 !important;
+	height: 20px !important;
+	width: 57px !important;
+	margin-left: 10px;
+}
+
+.card-footer-info {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-top: 15px;
+}
+.card-info-item {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 13px;
+	p {
+		font-size: 13px;
+	}
+	span {
+		font-size: 13px;
+	}
+	a {
+		text-decoration: none;
+		font-size: 13px;
 	}
 }

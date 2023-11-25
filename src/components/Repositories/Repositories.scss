@@ -9,3 +9,13 @@
 		margin: 0 auto;
 	}
 }
+
+.repos-container {
+	display: flex;
+	max-width: 1270px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 25px;
+}

@@ -95,7 +95,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
         </div>
       </div>
       <div
-        class="profie-organization MuiBox-root css-0"
+        class="profile-organization MuiBox-root css-0"
       >
         <svg
           aria-hidden="true"
@@ -109,14 +109,14 @@ exports[`Repositories component renders Repositories correctly 1`] = `
           />
         </svg>
         <a
-          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways profie-organization-name profile-detail css-1xylxj1-MuiTypography-root-MuiLink-root"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways profile-organization-name profile-detail css-1xylxj1-MuiTypography-root-MuiLink-root"
           href="https://github.com/acebook"
         >
           Facebook
         </a>
       </div>
       <div
-        class="profie-organization MuiBox-root css-1q7njkh"
+        class="profile-organization MuiBox-root css-1q7njkh"
       >
         <svg
           aria-hidden="true"
@@ -136,7 +136,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
         </p>
       </div>
       <div
-        class="profie-organization MuiBox-root css-1q7njkh"
+        class="profile-organization MuiBox-root css-1q7njkh"
       >
         <svg
           aria-hidden="true"

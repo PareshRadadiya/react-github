@@ -1,3 +1,74 @@
 .user-form-container {
 	padding-top: 32px;
 }
+
+.user-form-logo {
+	margin: auto;
+	height: 48px !important;
+	width: 48px !important;
+}
+
+.username-input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	.username-input-box {
+		background: rgb(246, 248, 250);
+		border-color: $border-color_1;
+		box-shadow: none;
+	}
+}
+
+.username-input-box {
+	padding: 38px;
+	max-width: 320px;
+	width: 100%;
+	border: 1px solid #dbcece;
+	border-radius: 20px;
+	background-color: $background-color_1;
+	fieldset {
+		border: 1px solid rgb(216, 222, 228);
+	}
+	input {
+		padding: 12.5px 14px;
+		background: #fff;
+	}
+	label {
+		top: -3px;
+	}
+	label.MuiFormLabel-filled {
+		top: 0px;
+	}
+	label.Mui-focused {
+		top: 0px;
+	}
+	button {
+		margin-top: 8px;
+	}
+}
+
+.submit {
+	background-color: $background-color_2 !important;
+}
+
+.error {
+	color: $color_1;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.header {
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.submitButton {
+	background-color: $background-color_3 !important;
+}
