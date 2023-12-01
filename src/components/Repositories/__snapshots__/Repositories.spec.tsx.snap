@@ -80,7 +80,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
           >
             385
           </span>
-          followers
+          PROFILE.FOLLOWERS
         </div>
         ·
         <div
@@ -91,7 +91,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
           >
             6
           </span>
-          following
+          PROFILE.FOLLOWING
         </div>
       </div>
       <div
@@ -163,7 +163,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
         <h6
           class="MuiTypography-root MuiTypography-h6 organization css-2ulfj5-MuiTypography-root"
         >
-          Organizations
+          PROFILE.ORGANIZATIONS
         </h6>
         <div
           class="profile-organization-list MuiBox-root css-0"
@@ -310,7 +310,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Angular 5 Library Starter Kit based on Angular-CLI
+                REPOSITORY.DESCRIPTIONAngular 5 Library Starter Kit based on Angular-CLI
               </p>
               <div
                 class="card-footer-info"
@@ -400,7 +400,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Tue, 17 Oct 2023 09:54:36 GMT
                     </span>
@@ -443,7 +443,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Command-line program to download videos from YouTube.com and other video sites
+                REPOSITORY.DESCRIPTIONCommand-line program to download videos from YouTube.com and other video sites
               </p>
               <div
                 class="card-footer-info"
@@ -533,7 +533,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Tue, 10 Oct 2023 18:29:14 GMT
                     </span>
@@ -576,7 +576,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Web Bluetooth Eddystone made easier.
+                REPOSITORY.DESCRIPTIONWeb Bluetooth Eddystone made easier.
               </p>
               <div
                 class="card-footer-info"
@@ -666,7 +666,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Fri, 08 Sep 2023 17:26:47 GMT
                     </span>
@@ -709,7 +709,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: The open-source chat application for developers.
+                REPOSITORY.DESCRIPTIONThe open-source chat application for developers.
               </p>
               <div
                 class="card-footer-info"
@@ -799,7 +799,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Wed, 30 Aug 2023 19:07:19 GMT
                     </span>
@@ -842,7 +842,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Express API Starter Kit
+                REPOSITORY.DESCRIPTIONExpress API Starter Kit
               </p>
               <div
                 class="card-footer-info"
@@ -932,7 +932,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Thu, 22 Jun 2023 19:07:08 GMT
                     </span>
@@ -975,7 +975,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Easy to maintain open source documentation websites.
+                REPOSITORY.DESCRIPTIONEasy to maintain open source documentation websites.
               </p>
               <div
                 class="card-footer-info"
@@ -1063,7 +1063,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:27:56 GMT
                     </span>
@@ -1106,7 +1106,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Concise, consistent, and legible badges in SVG and raster format
+                REPOSITORY.DESCRIPTIONConcise, consistent, and legible badges in SVG and raster format
               </p>
               <div
                 class="card-footer-info"
@@ -1194,7 +1194,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:27:55 GMT
                     </span>
@@ -1237,7 +1237,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: A declarative, efficient, and flexible JavaScript library for building user interfaces.
+                REPOSITORY.DESCRIPTIONA declarative, efficient, and flexible JavaScript library for building user interfaces.
               </p>
               <div
                 class="card-footer-info"
@@ -1325,7 +1325,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:27:50 GMT
                     </span>
@@ -1368,7 +1368,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Minimalistic version of a server-client interaction with GraphQL ⚠️ Don't copy-paste into a RL project. It has conceptual mistakes https://graphql.org/learn/best-practices/
+                REPOSITORY.DESCRIPTIONMinimalistic version of a server-client interaction with GraphQL ⚠️ Don't copy-paste into a RL project. It has conceptual mistakes https://graphql.org/learn/best-practices/
               </p>
               <div
                 class="card-footer-info"
@@ -1455,7 +1455,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:52 GMT
                     </span>
@@ -1580,7 +1580,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:26 GMT
                     </span>
@@ -1623,7 +1623,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Main uPort library for front end developers
+                REPOSITORY.DESCRIPTIONMain uPort library for front end developers
               </p>
               <div
                 class="card-footer-info"
@@ -1713,7 +1713,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:23 GMT
                     </span>
@@ -1756,7 +1756,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: A terminal stopwatch
+                REPOSITORY.DESCRIPTIONA terminal stopwatch
               </p>
               <div
                 class="card-footer-info"
@@ -1843,7 +1843,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:23 GMT
                     </span>
@@ -1886,7 +1886,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: A best-practices CSS foundation
+                REPOSITORY.DESCRIPTIONA best-practices CSS foundation
               </p>
               <div
                 class="card-footer-info"
@@ -1976,7 +1976,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:22 GMT
                     </span>
@@ -2019,7 +2019,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Create and verify uPort and DID compliant JWT's in Javascript
+                REPOSITORY.DESCRIPTIONCreate and verify uPort and DID compliant JWT's in Javascript
               </p>
               <div
                 class="card-footer-info"
@@ -2109,7 +2109,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:21 GMT
                     </span>
@@ -2234,7 +2234,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:20 GMT
                     </span>
@@ -2277,7 +2277,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Always unsubscribe your RxJS calls
+                REPOSITORY.DESCRIPTIONAlways unsubscribe your RxJS calls
               </p>
               <div
                 class="card-footer-info"
@@ -2367,7 +2367,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:18 GMT
                     </span>
@@ -2410,7 +2410,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: The uPort Social Module
+                REPOSITORY.DESCRIPTIONThe uPort Social Module
               </p>
               <div
                 class="card-footer-info"
@@ -2500,7 +2500,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:18 GMT
                     </span>
@@ -2625,7 +2625,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:15 GMT
                     </span>
@@ -2750,7 +2750,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:09 GMT
                     </span>
@@ -2793,7 +2793,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Cassandra Hadoop Example
+                REPOSITORY.DESCRIPTIONCassandra Hadoop Example
               </p>
               <div
                 class="card-footer-info"
@@ -2883,7 +2883,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:01 GMT
                     </span>
@@ -3008,7 +3008,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:26:00 GMT
                     </span>
@@ -3133,7 +3133,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:58 GMT
                     </span>
@@ -3176,7 +3176,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: TV video encoding without hassle.
+                REPOSITORY.DESCRIPTIONTV video encoding without hassle.
               </p>
               <div
                 class="card-footer-info"
@@ -3266,7 +3266,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:57 GMT
                     </span>
@@ -3309,7 +3309,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Learn, Teach, Work and Play in the Web Assembly Studio
+                REPOSITORY.DESCRIPTIONLearn, Teach, Work and Play in the Web Assembly Studio
               </p>
               <div
                 class="card-footer-info"
@@ -3399,7 +3399,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:54 GMT
                     </span>
@@ -3442,7 +3442,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Content Security Policy (CSP) Demo
+                REPOSITORY.DESCRIPTIONContent Security Policy (CSP) Demo
               </p>
               <div
                 class="card-footer-info"
@@ -3532,7 +3532,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:52 GMT
                     </span>
@@ -3660,7 +3660,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:52 GMT
                     </span>
@@ -3703,7 +3703,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Mirror of the PulseAudio sound server (for bug reports and pull requests go to the website!)
+                REPOSITORY.DESCRIPTIONMirror of the PulseAudio sound server (for bug reports and pull requests go to the website!)
               </p>
               <div
                 class="card-footer-info"
@@ -3792,7 +3792,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:51 GMT
                     </span>
@@ -3917,7 +3917,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:49 GMT
                     </span>
@@ -3960,7 +3960,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Angular2+ Modal / Dialog (with inner component support).
+                REPOSITORY.DESCRIPTIONAngular2+ Modal / Dialog (with inner component support).
               </p>
               <div
                 class="card-footer-info"
@@ -4050,7 +4050,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:47 GMT
                     </span>
@@ -4093,7 +4093,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body2 css-14n9rus-MuiTypography-root"
               >
-                Description: Angular2 gravatar directive
+                REPOSITORY.DESCRIPTIONAngular2 gravatar directive
               </p>
               <div
                 class="card-footer-info"
@@ -4180,7 +4180,7 @@ exports[`Repositories component renders Repositories correctly 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
                   >
-                    Updated on 
+                    REPOSITORY.UPDATEDON 
                     <span>
                       Mon, 08 May 2023 13:25:40 GMT
                     </span>

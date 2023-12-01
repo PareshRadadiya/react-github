@@ -17,7 +17,7 @@ exports[`Form component renders Form correctly 1`] = `
     <h5
       class="MuiTypography-root MuiTypography-h5 header css-ag7rrr-MuiTypography-root"
     >
-      Get Github Repositories
+      FORM.GETGITREPO
     </h5>
   </div>
   <div
@@ -36,7 +36,7 @@ exports[`Form component renders Form correctly 1`] = `
           for="outlined-basic"
           id="outlined-basic-label"
         >
-          Enter Username
+          FORM.ENTERNAME
           <span
             aria-hidden="true"
             class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
@@ -63,7 +63,7 @@ exports[`Form component renders Form correctly 1`] = `
               class="css-yjsfm1"
             >
               <span>
-                Enter Username *
+                FORM.ENTERNAME *
               </span>
             </legend>
           </fieldset>
@@ -74,7 +74,7 @@ exports[`Form component renders Form correctly 1`] = `
         tabindex="0"
         type="button"
       >
-        Submit
+        FORM.SUBMIT
         <span
           class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
         />

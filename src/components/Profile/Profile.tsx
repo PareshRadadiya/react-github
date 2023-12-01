@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { Box, Typography, CardMedia, Card, Avatar, Link } from "@mui/material";
+import { useTranslation } from 'react-i18next';
 
 
 import {
@@ -16,7 +17,8 @@ interface UserInfoProps {
 const Profile: FC<UserInfoProps> = ({ userName }) => {
   const { data: user } = useGetUserQuery(userName);
   const { data: organizations, error: organizationsError, isLoading: organizationsIsLoading } = useGetUserOrganizationsQuery(userName);
-
+  const { t } = useTranslation();
+  console.log("this is translation.", user);
   return (
     <Box className="user-profile">
       <Box className="user-profile-wrapper">
@@ -51,12 +53,12 @@ const Profile: FC<UserInfoProps> = ({ userName }) => {
             <path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z"></path>
           </svg>
           <span className="follow-count">{user?.followers || 0}</span>
-          followers
+          {t('PROFILE.FOLLOWERS')}
         </Box>
         ·
         <Box className="profile-follow-item">
           <span className="follow-count">{user?.following || 0}</span>
-          following
+          {t('PROFILE.FOLLOWING')}
         </Box>
       </Box>
       {user?.company && (
@@ -134,10 +136,10 @@ const Profile: FC<UserInfoProps> = ({ userName }) => {
         </Link>
       </Box>)}
 
-      {!organizationsError && !organizationsIsLoading && organizations?.length && (
+      {!organizationsError && !organizationsIsLoading && (organizations?.length !== 0) && (
         <Box className="profile-organizations">
           <Typography variant="h6" className="organization">
-            Organizations
+            {t('PROFILE.ORGANIZATIONS')}
           </Typography>
           <Box className="profile-organization-list" data-testid="organization-list">
             {organizations?.map((org: any) => (

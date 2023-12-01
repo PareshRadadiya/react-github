@@ -7,6 +7,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { useGetUserRepositoriesQuery } from "../../store/services/github";
 import Repository from "../Repository/Repository";
 import "./RepositoriesList.scss";
+import { useTranslation } from 'react-i18next';
 
 interface RepositoriesListProps {
   userName: string;
@@ -26,6 +27,7 @@ const RepositoriesList: FC<RepositoriesListProps> = ({ userName }) => {
   const disableNext = totalRepos < 30;
   const disablePrevious = currentPage === 1;
   const disablePagination = disableNext && disablePrevious;
+  const { t } = useTranslation();
 
   const handleNext = () => {
     scrollToTop();
@@ -51,7 +53,7 @@ const RepositoriesList: FC<RepositoriesListProps> = ({ userName }) => {
     return (
       <Box className="user-repositories-list">
         <Typography variant="h5" className="user-repositories-empty">
-          {userName} doesn’t have any public repositories yet.
+          {userName} {t('REPOSITORIESLIST.NOTFOUND')}
         </Typography>
       </Box>
     );

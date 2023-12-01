@@ -9,13 +9,14 @@ import {
   Paper,
 } from "@mui/material";
 import gitAvatar from "../../assets/github.png";
-
+import { useTranslation } from 'react-i18next';
 import "./Form.scss";
 
 const Form: FC = () => {
   const navigate = useNavigate();
   const [userName, setUserName] = useState<string>("");
   const [error, setError] = useState<boolean>(false);
+  const { t } = useTranslation();
 
   const handleSubmit = () => {
     if (!userName) {
@@ -32,7 +33,7 @@ const Form: FC = () => {
       <Box className="user-form-container">
         <Avatar alt="Github Avatar" src={gitAvatar} className="user-form-logo" />
         <Typography variant="h5" className="header">
-          Get Github Repositories
+          {t('FORM.GETGITREPO')}
         </Typography>
       </Box>
       <Box className="username-input">
@@ -41,7 +42,7 @@ const Form: FC = () => {
             data-testid="user-name"
             fullWidth
             id="outlined-basic"
-            label="Enter Username"
+            label={t('FORM.ENTERNAME')}
             variant="outlined"
             margin="normal"
             value={userName}
@@ -61,7 +62,7 @@ const Form: FC = () => {
             fullWidth
             onClick={handleSubmit}
           >
-            Submit
+            {t('FORM.SUBMIT')}
           </Button>
         </Paper>
       </Box>

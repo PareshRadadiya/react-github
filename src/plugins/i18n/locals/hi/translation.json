@@ -1,0 +1,19 @@
+{
+    "FORM": {
+        "GETGITREPO": "गिटहब रिपॉजिटरी प्राप्त करें.",
+        "ENTERNAME": "उपयोगकर्ता का नाम दर्ज करें",
+        "SUBMIT": "प्रस्तुत करें"
+    },
+    "PROFILE": {
+        "FOLLOWERS": "फॉलोअर्स",
+        "FOLLOWING": "फॉलोइंग",
+        "ORGANIZATIONS": "संगठन"
+    },
+    "REPOSITORIESLIST": {
+        "NOTFOUND": "अब तक कोई सार्वजनिक रिपॉजिटरी नहीं है।"
+    },
+    "REPOSITORY": {
+        "UPDATEDON": "अपडेट किया गया ",
+        "DESCRIPTION": "विवरण: "
+    }
+}

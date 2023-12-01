@@ -1,0 +1,19 @@
+{
+    "FORM" : {
+        "GETGITREPO": "Get Github Repositories :",
+        "ENTERNAME": "Enter User's Name",
+        "SUBMIT": "Submit"
+    },
+    "PROFILE" : {
+        "FOLLOWERS": "followers",
+        "FOLLOWING": "following",
+        "ORGANIZATIONS": "Organizations"
+    },
+    "REPOSITORIESLIST" : {
+        "NOTFOUND": "doesn’t have any public repositories yet."
+    },
+    "REPOSITORY" : { 
+        "UPDATEDON": "Updated on ",
+        "DESCRIPTION": "Description: "
+    }
+}

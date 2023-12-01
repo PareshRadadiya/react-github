@@ -1,8 +1,11 @@
 // CardComponent.js
 import { Card, Link, Chip, CardContent, Typography } from "@mui/material";
 import "./Repository.scss";
+import { useTranslation } from 'react-i18next';
+
 
 const Repository = ({ repoData }: any) => {
+  const { t } = useTranslation();
   return (
     <Card className="user-repository-container">
       <CardContent className="user-repository ">
@@ -27,7 +30,7 @@ const Repository = ({ repoData }: any) => {
             color="text.secondary"
             sx={{ marginTop: "6px" }}
           >
-            Description: {repoData.description}
+            {t('REPOSITORY.DESCRIPTION')}{repoData.description}
           </Typography>
         )}
 
@@ -68,7 +71,7 @@ const Repository = ({ repoData }: any) => {
           </span>
           <span className="card-info-item">
             <Typography variant="body2" color="text.secondary">
-              Updated on <span>{new Date(repoData?.updated_at).toUTCString()}</span>
+              {t('REPOSITORY.UPDATEDON')} <span>{new Date(repoData?.updated_at).toUTCString()}</span>
             </Typography>
           </span>
         </div>
